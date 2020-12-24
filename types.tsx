@@ -3,15 +3,26 @@ export type RootStackParamList = {
   NotFound: undefined;
 };
 
-export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
-};
-
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  Main: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
-};
+
+export type Currency = {
+  csupply?: string;
+  id: string;
+  market_cap_usd?: string;
+  msupply?: string;
+  name?: string;
+  nameid?: string;
+  percent_change_1h?: string;
+  percent_change_24h?: string;
+  percent_change_7d?: string;
+  price_btc?: string;
+  price_usd?: string;
+  rank?: string;
+  symbol?: string;
+  tsupply?: string;
+  volume24?: string;
+  volume24a?: string;
+}
